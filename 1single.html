@@ -3,11 +3,12 @@ title: 1. Single file
 layout: page
 ---
 
+
 <input id="photo" type="file">
 <div id="results"></div>
 <script>
   async function loaded(reader) {
-    const response = await fetch('https://hf.space/embed/jph00/pets/+/api/predict/', {
+    const response = await fetch('https://entropicalstorm-beartype.hf.space/api/predict', {
       method: "POST", body: JSON.stringify({ "data": [reader.result] }),
       headers: { "Content-Type": "application/json" }
     });
