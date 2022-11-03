@@ -1,4 +1,4 @@
-remote-theme: daviddarnes/garth
+theme: dinky
 
 plugins:
 - jekyll-remote-theme
