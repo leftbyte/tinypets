@@ -1,4 +1,4 @@
-remote_theme: jeffreytse/jekyll-theme-yat@master
+remote_theme: pages-themes/midnight@master
 
 plugins:
 - jekyll-remote-theme
