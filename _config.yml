@@ -1,4 +1,4 @@
-remote-theme: benbalter/retlab
+remote-theme: daviddarnes/garth
 
 plugins:
 - jekyll-remote-theme
